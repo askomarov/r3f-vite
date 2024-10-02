@@ -10,7 +10,7 @@ import {
   Text,
   MeshReflectorMaterial,
 } from "@react-three/drei";
-import "./Canvas.css";
+import "@/components/Canvas.css";
 
 const Scene = () => {
   const boxRef = useRef<THREE.Mesh>(null);
